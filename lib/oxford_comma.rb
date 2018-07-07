@@ -5,9 +5,9 @@ if count  == 1
   return array.join
 elsif count == 2
   array.join(" and ")
-elsif count == 3
-  array.insert(-2, "and ")
-
+else
+  array[-1].prepend "and"
+  array.join(", ")
 
 end
 
