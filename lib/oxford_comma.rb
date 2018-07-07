@@ -6,7 +6,8 @@ if count  == 1
 elsif count == 2
   array.join(" and ")
 elsif count == 3
-  array.index[0..1].to_a
+  array.insert(-2, "and ")
+  array[0..-2].join(",") + array[-1]
 
 
 end
