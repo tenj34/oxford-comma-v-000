@@ -7,8 +7,7 @@ elsif count == 2
   array.join(" and ")
 else
   array[-1].prepend "and"
-  array.join(", ")
-  
+  array.join(" , ")
 
 end
 
