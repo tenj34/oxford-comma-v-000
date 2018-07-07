@@ -8,6 +8,7 @@ elsif count == 2
 else
   array[-1].prepend "and"
   array.join(", ")
+  
 
 end
 
