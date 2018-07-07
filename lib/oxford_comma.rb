@@ -1,4 +1,8 @@
 def oxford_comma(array)
 count  = array.length
-return count
+
+if count  == 1
+  return array.join
+end
+
 end
