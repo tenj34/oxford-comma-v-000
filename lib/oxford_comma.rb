@@ -6,7 +6,7 @@ if count  == 1
 elsif count == 2
   array.join(" and ")
 elsif count == 3
-  array.join(" ,  and ")
+  array.join(", and ")
 
 
 end
